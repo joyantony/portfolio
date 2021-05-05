@@ -45,6 +45,8 @@
 
 .site-main .site-banner{
     background: url(../img/banner/home-banner_e.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .site-main .site-banner .site-title h3{
@@ -76,3 +78,108 @@
 }
 
 /* hero banner area end */
+
+/* about section */
+
+.site-main .about-area{
+    padding: 1rem 5rem 6rem 5rem;
+}
+
+.site-main .about-area .about-title h2> span{
+    display: block;
+    font: normal bold 40px/60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .3rem 0;
+}
+
+/* about section end */
+
+/* brand section */
+
+.site-main .brand-area{
+    padding: 1rem 5rem;
+    margin-bottom: 4rem;
+}
+
+.site-main .brand-area .brand-row .brands{
+    display: flex;
+    justify-content: center;
+}
+
+.site-main .brand-area .brand-row .brands > .single-brand{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0;
+    margin: .9rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+
+.site-main .brand-area .brand-row .brands > .single-brand >img{
+    width: 50%;
+}
+
+.site-main .brand-area .brand-row .brands > .single-brand:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+
+.site-main .brand-area .brand-row .brands > .single-brand:hover > img{
+    filter: brightness(0.15);
+}
+
+
+.site-main .brand-area .exp-area{
+    padding-left: 1rem;
+    position: relative;
+}
+
+.site-main .brand-area .exp-area span{
+    display: block;
+    
+}
+
+.site-main .brand-area .exp-area .years-area{
+    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+    padding: 2rem 0;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    
+}
+
+.site-main .brand-area .exp-area .bg-exp-area{
+    position: absolute;
+    left: -190px; top: 0;
+    background: #e029290a;
+    width: 400px;
+    height: 400px;
+    margin-left: 320px;
+    z-index: -1;
+}
+
+.site-main .brand-area .exp-area .years-area .years{
+    font: normal bold 84px/40px var(--roboto);
+    color: var(--primary-color2);
+    z-index: 2;
+}
+
+.site-main .brand-area .exp-area .years-area h2 > span{
+    font: normal 600 22px/30px var(--roboto);
+}
+
+.site-main .brand-area .exp-area .call-area{
+    padding-left: 10rem;
+}
+
+.site-main .brand-area .exp-area .call-area a{
+    text-decoration: none;
+}
+
+
+/* brand section end */

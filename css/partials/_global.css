@@ -5,6 +5,10 @@
     font: normal bold 50px/72px var(--roboto);
 }
 
+.font-roboto{
+    font-family: var(--roboto);
+}
+
 /* button */
 
 .button{
@@ -49,4 +53,9 @@
     background: var(--gradient-color);
     color: whitesmoke;
     box-shadow: var(--box-shadow);
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal bold 16px/25px var(--roboto);
 }
